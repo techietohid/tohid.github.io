@@ -113,7 +113,7 @@ h1, h2 {
   display: none;
 }
 
-.app__header {
+.Portfolio__header {
   display: flex;
   flex-direction: row;
   margin-top: 128px;
@@ -121,13 +121,13 @@ h1, h2 {
   align-items: center;
 }
 @media (max-width: 768px) {
-  .app__header {
+  .Portfolio__header {
     align-items: flex-start;
     margin-top: 32px;
     margin-bottom: 16px;
   }
 }
-.app__logo-wrapper {
+.Portfolio__logo-wrapper {
   display: inline-block;
   background-image: url("ios-mask-border-128.svg");
   background-size: contain;
@@ -139,50 +139,50 @@ h1, h2 {
   height: 100%;
   background-repeat: no-repeat;
 }
-html[dir=rtl] .app__logo-wrapper {
+html[dir=rtl] .Portfolio__logo-wrapper {
   margin-left: 64px;
   margin-right: 0;
 }
 @media (max-width: 768px) {
-  .app__logo-wrapper {
+  .Portfolio__logo-wrapper {
     max-width: 100px;
     max-height: 100px;
     margin-right: 16px;
   }
 }
-.app__logo {
+.Portfolio__logo {
   border-radius: 22.5%;
   mask-image: url("ios-mask.svg");
   mask-size: cover;
   width: 100%;
   height: auto;
 }
-.app__name {
+.Portfolio__name {
   font-size: var(--font-xl);
   margin: 0;
 }
-.app__description {
+.Portfolio__description {
   font-size: var(--font-lg);
 }
 @media (max-width: 768px) {
-  .app__description {
+  .Portfolio__description {
     margin-top: 8px;
     margin-bottom: 0;
   }
 }
-.app__screenshots-list {
+.Portfolio__screenshots-list {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px 200px 200px;
   grid-column-gap: 20px;
   padding: 30px 0;
 }
 @media (max-width: 768px) {
-  .app__screenshots-list {
+  .Portfolio__screenshots-list {
     padding: 32px;
     width: 800px;
   }
 }
-.app__screenshot {
+.Portfolio__screenshot {
   width: 100%;
   border-radius: 16px;
   box-shadow: 0 12px 48px rgba(17, 16, 62, 0.12);
@@ -190,85 +190,85 @@ html[dir=rtl] .app__logo-wrapper {
   transform: scale(1);
   cursor: pointer;
 }
-.app__screenshot:hover {
+.Portfolio__screenshot:hover {
   box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
   transform: scale(1.05);
 }
-.app__screenshots-wrapper {
+.Portfolio__screenshots-wrapper {
   overflow-y: auto;
 }
-.app__buttons {
+.Portfolio__buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: -9.8px;
 }
-.app__buttons--mobile {
+.Portfolio__buttons--mobile {
   display: none;
 }
 @media (max-width: 768px) {
-  .app__buttons {
+  .Portfolio__buttons {
     margin-left: 0;
     margin-bottom: 64px;
   }
-  .app__buttons--mobile {
+  .Portfolio__buttons--mobile {
     display: flex;
     justify-content: center;
   }
-  .app__buttons--desktop {
+  .Portfolio__buttons--desktop {
     display: none;
   }
 }
-.app__button-play img {
+.Portfolio__button-play img {
   width: 176.4px;
 }
-.app__button-ios img {
+.Portfolio__button-ios img {
   width: 140px;
 }
-.app__button-web {
+.Portfolio__button-web {
   margin-left: 12px;
 }
-.app__button-web img {
+.Portfolio__button-web img {
   width: 157px;
 }
 @media (max-width: 768px) {
-  .app__button-play img {
+  .Portfolio__button-play img {
     width: 126px;
   }
-  .app__button-ios img {
+  .Portfolio__button-ios img {
     width: 100px;
   }
-  .app__button-web {
+  .Portfolio__button-web {
     margin-left: 8px;
   }
-  .app__button-web img {
+  .Portfolio__button-web img {
     width: 112px;
   }
 }
-.app__section-title {
+.Portfolio__section-title {
   font-size: var(--font-lg);
 }
-.app__section {
+.Portfolio__section {
   margin-bottom: 128px;
 }
 @media (max-width: 768px) {
-  .app__section {
+  .Portfolio__section {
     margin-bottom: 64px;
   }
 }
-.app__featured-content {
+.Portfolio__featured-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 32px;
   align-items: center;
 }
 @media (max-width: 768px) {
-  .app__featured-content {
+  .Portfolio__featured-content {
     display: block;
     padding: 32px;
   }
 }
-.app__featured-image {
+.Portfolio__featured-image {
   width: 100%;
   margin: auto;
 }
